@@ -4,6 +4,9 @@
     "license" : "GPL-3.0-only",
     "type": "wordpress-plugiun",
     "homepage": "https://www.radishconcetps.com",
+    "require": {
+        "php" : ">=5.3.0"
+    },
     "autoload": {
         "classmap": [
             "classes/"
