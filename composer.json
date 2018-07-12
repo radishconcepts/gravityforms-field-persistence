@@ -1,7 +1,8 @@
 {
     "name" : "radishconcepts/gf-field-persistence",
     "description" : "Composer.json file for Gravity Forms Field Persistence plugin",
-    "license" : "GPL-2.0+",
+    "license" : "GPL-3.0-only",
+    "type": "wordpress-plugiun",
     "homepage": "https://www.radishconcetps.com",
     "autoload": {
         "classmap": [
