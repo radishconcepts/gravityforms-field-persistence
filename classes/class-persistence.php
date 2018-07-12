@@ -5,7 +5,7 @@ namespace Radish\GravityForms\Persistence;
 class Core {
 	
 	private static $instance;
-	private $_version = '1.0.0';
+	private $_version = '1.0.1';
 	private $load_js_in_footer = true;
 	
 	public function __construct() {
