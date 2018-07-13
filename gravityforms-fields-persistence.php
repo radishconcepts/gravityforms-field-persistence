@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Gravity Forms Fields Persistence
-Plugin URI: https://www.radishconcepts.com
+Plugin URI: https://github.com/radishconcepts/gravityforms-field-persistence/
 Description: Adds persistence to the Gravity Forms fields, so inputs will be saved in order to use it in other forms. This will improve user experience and boost your goals!
 Version: 1.0.1
 Author: Radish Concepts <info@radishconcepts.com>
