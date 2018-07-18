@@ -34,11 +34,6 @@ class Core {
 	 * Enqueues the needed scripts. jQuery is required, so we load it, if it isn't enqueued yet.
 	 */
 	public function enqueue_scripts() {
-		$is_enqueued = wp_script_is( 'jquery', 'enqueued' );
-		if ( false === $is_enqueued ) {
-			wp_enqueue_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js', null, null, $this->load_js_in_footer );
-		}
-		
 		wp_enqueue_script( 'rcgfp_script', RCGFP_PLUGIN_URI . 'assets/js/gf-field-persistence.js', array( 'jquery' ), $this->_version, $this->load_js_in_footer );
 		wp_localize_script( 'rcgfp_script', 'rcgfp_data', array(
 			'ajax_url' => admin_url( 'admin-ajax.php' ),
