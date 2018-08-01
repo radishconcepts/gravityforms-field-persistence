@@ -40,10 +40,6 @@ var rcgfp = {
 				secure : true
 			});
 		}
-
-		console.log(dataToSave);
-
-		return false;
 	},
 
 	post_render: function ($form) {
