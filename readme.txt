@@ -27,6 +27,10 @@ Thanks to https://wisdmlabs.com/blog/gravity-forms-data-persistent-for-save-prog
 
 == Changelog ==
 
+= 1.0.2 =
+* Stupid JS fix (debug info removed)
+
+
 = 1.0 =
 * Initial plugin
 

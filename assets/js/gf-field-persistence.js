@@ -17,7 +17,6 @@ var rcgfp = {
 		}
 	},
 	save_data: function (e) {
-		e.preventDefault();
 		var $this = $(this);
 		var $form = $this.parents('form');
 		var dataToSave = [];
